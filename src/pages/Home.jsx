@@ -34,15 +34,16 @@ function Home() {
         <hr />
       </div>
       <div>
-        <Link to="/new-beer"></Link>
-        <img src={NewBeerImage} alt="ListOfBeers" />
-        <h1>New Beer</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, est.
-          Inventore sit minima ullam est recusandae dignissimos, enim incidunt
-          magnam eius alias nisi ipsam placeat sequi, esse cupiditate sapiente
-          a.
-        </p>
+        <Link to="/new-beer">
+          <img src={NewBeerImage} alt="ListOfBeers" />
+          <h1>New Beer</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, est.
+            Inventore sit minima ullam est recusandae dignissimos, enim incidunt
+            magnam eius alias nisi ipsam placeat sequi, esse cupiditate sapiente
+            a.
+          </p>
+        </Link>
       </div>
     </div>
   );
